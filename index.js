@@ -12,7 +12,7 @@ class Sprite{
     }
 
     draw(){
-        c.fillStyle("red");
+        c.fillStyle('red');
         c.fillRect(this.position.x, this.position.y, 50, 150);
     }
 }
